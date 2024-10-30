@@ -6,180 +6,218 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Urban Flow Website</title>
   
-  <!-- Bootstrap CSS CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  
-  <!-- Font Awesome CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  
-  <!-- Local CSS -->
-  <link href="css/styles.css" rel="stylesheet">
+<!-- Bootstrap CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!-- Font Awesome CSS CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Local CSS -->
+ <link href="css/styles.css" rel="stylesheet" /> 
 </head>
 <body>
-  <header>
-    <!-- Top Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Urban Flow</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+ <header>
+  <!-- Begins Top Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+  <!-- Ends Top Navbar -->
+</header> 
+ 
+<main>
+ <!-- Begins Carousel -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/Carousel-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/Carousel-2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/Carousel-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Ends Carousel --> 
+
+<!-- Begin Font Awesome Row -->
+<div class="container-fluid text-center fa-row">
+  <div class="row">
+    <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+      <i class="fa-solid fa-city fa-row-icon"></i>
+      <br /> City
+    </div>
+    <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+      <i class="fa-solid fa-tree-city fa-row-icon"></i>
+      <br /> Building
+    </div>
+    <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+      <i class="fa-solid fa-users fa-row-icon"></i>
+      <br /> People
+    </div>
+    <div class="col-12 col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+      <i class="fa-solid fa-star fa-row-icon"></i>
+      <br /> Night
+    </div>
+  </div>
+</div>
+<!-- End Font Awesome Row -->
+
+<!-- Begin First Paragraph -->
+<div class="container first-paragragh-div">
+<div class="row">
+  <div class="col-12 col-xxs-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+    <h2>About Us</h2>
+  <p>
+    Welcome to Urban Living Now, your hub for all things city life! From local hotspots and cultural events to everyday city hacks, we cover it all. Dive in for fresh insights and exclusive extras to help you thrive in the fast-paced, exciting world of urban living.
+  </p>
+  </div>
+  <div class="col-12 col-xxs-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+    <img src="https://dummyimage.com/600x400/2b45c4/fff.jpg" alt="dummy image"/>
+  </div>
+</div>
+</div>
+ <!-- End First Paragraph -->
+
+<!-- Begin Table -->
+ <div class="container">
+  <div class="row">
+    <div class="col-12">
   
-  <main>
-    <!-- Carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/Carousel-1.jpg" class="d-block w-100" alt="Slide 1">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/Carousel-2.jpg" class="d-block w-100" alt="Slide 2">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/Carousel-3.jpg" class="d-block w-100" alt="Slide 3">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HMTL Table</title>
+</head> 
+<body>
+  
+  <h2 class="text-center">Event Schedule </h2>
+  
+  <table class="content-table">
+    <thead>
+      <tr>
+        <th> &nbsp </th>
+        <th>Mondays</th>
+        <th>Wednesdays</th>
+        <th>Fridays</th>
+      </tr>
+       </thead>
+    
+    <tbody>
+      <tr>
+        <td>City Services</td>
+        <td>data 2</td>
+        <td>data 3</td>
+        <td>data 4</td>
+      <tr/>
+      
+      <tr>
+        <td>Community Events</td>
+        <td>data 2</td>
+        <td>data 3</td>
+        <td>data 4</td>
+      <tr/>
+      
+      <tr>
+        <td>Activities</td>
+        <td>data 2</td>
+        <td>data 3</td>
+        <td>data 4</td>
+      <tr/>
+      
+      <tr>
+        <td>Public Health</td>
+        <td>data 2</td>
+        <td>data 3</td>
+        <td>data 4</td>
+      <tr/>
+   </tbody>
+    
+    <tfoot class="text-center"> 
+      <tr>
+        <td colspan="4"><a href="#" class="btn btn-primary">Learn More</a></td>
+      </tr>
+    </tfoot>
+  </table>
+  
+</body>
+</html>
     </div>
+  </div>
+ </div>
+ <!-- Ends Table -->
+ </main>
 
-    <!-- Font Awesome Row -->
-    <div class="container-fluid text-center fa-row mt-4">
-      <div class="row">
-        <div class="col-lg-3">
-          <i class="fa-solid fa-city fa-row-icon"></i>
-          <br> City
-        </div>
-        <div class="col-lg-3">
-          <i class="fa-solid fa-tree-city fa-row-icon"></i>
-          <br> Building
-        </div>
-        <div class="col-lg-3">
-          <i class="fa-solid fa-users fa-row-icon"></i>
-          <br> People
-        </div>
-        <div class="col-lg-3">
-          <i class="fa-solid fa-star fa-row-icon"></i>
-          <br> Night
-        </div>
-      </div>
-    </div>
+ <footer>
+  Footer content goes here 
+ </footer>
 
-    <!-- About Us Section -->
-    <div class="container first-paragraph-div mt-4">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>About Us</h2>
-          <p>Welcome to Urban Living Now, your hub for all things city life! From local hotspots and cultural events to everyday city hacks, we cover it all. Dive in for fresh insights and exclusive extras to help you thrive in the fast-paced, exciting world of urban living.</p>
-        </div>
-        <div class="col-md-6">
-          <img src="https://dummyimage.com/600x400/2b45c4/fff.jpg" alt="City life">
-        </div>
-      </div>
-    </div>
-
-    <!-- Event Schedule Table -->
-    <div class="container mt-4">
-      <h2 class="text-center">Event Schedule</h2>
-      <table class="table content-table">
-        <thead>
-          <tr>
-            <th>&nbsp;</th>
-            <th>Mondays</th>
-            <th>Wednesdays</th>
-            <th>Fridays</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>City Services</td>
-            <td>data 2</td>
-            <td>data 3</td>
-            <td>data 4</td>
-          </tr>
-          <tr>
-            <td>Community Events</td>
-            <td>data 2</td>
-            <td>data 3</td>
-            <td>data 4</td>
-          </tr>
-          <tr>
-            <td>Activities</td>
-            <td>data 2</td>
-            <td>data 3</td>
-            <td>data 4</td>
-          </tr>
-          <tr>
-            <td>Public Health</td>
-            <td>data 2</td>
-            <td>data 3</td>
-            <td>data 4</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="4" class="text-center"><a href="#" class="btn btn-primary">Learn More</a></td>
-          </tr>
-        </tfoot>
-      </table>
-    </div>
-  </main>
-
-  <footer class="text-center py-3">
-    Footer content goes here
-  </footer>
-
+ <!-- JavaScript goes here -->
+ <div>
   <!-- Bootstrap JS CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-9ndCyUa0Y7S1v9+ck0FeDGHJQDa9j
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ </div>
+</body>
+</html>
