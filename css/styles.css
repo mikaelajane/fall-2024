@@ -82,6 +82,11 @@
     padding-bottom: 30px;
   }
 
-  ..schedule-section {
-    width: 100%; 
+  @media screen and (max-width:768px) {
+
+    .schedule-section {
+      width: 100%; 
+      display: none;
+    }
+
   }
